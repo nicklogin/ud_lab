@@ -1,0 +1,77 @@
+//Example file for language Lithuanian
+//based on Ambrazas grammar
+//A <POS1> means that this parts of speach inherits tagset from POS1
+//Tags can be either substracted ( - Tag1, - Tag2) or added ( + Tag1, + Tag2 to the tagset)
+//Hashtag(#) sign with <Feature=Value> means that this Feature or Tag is only possible when the condition in arrows is satisfied
+//the conditions can be combined with !(NOT), &(AND), |(OR) logical symbols
+//#<> after space makes a tagset conditional (e.g. Tag1 Tag2 #<Cond.1> Tag3 Tag4 #<Cond.2>
+
+language lt
+
+NOUN
+
+Gender	Fem Masc
+Case	Nom Gen Dat Acc Instr Loc Voc
+Abbr	Yes
+Number	Plur Sing
+
+
+PROPN
+
+Gender	<NOUN>
+Case	<NOUN>
+Abbr	<NOUN>
+Number	<NOUN>
+
+
+ADJ
+
+Case	<NOUN>
+Gender	Masc Fem Neut
+Number	<NOUN> Neut
+Degree	Cmp Suo Pos
+Definite	Def Ind
+
+
+NUM
+
+NumType	Card Ord
+Number	Plur Coll
+Gender	Masc Fem
+Case	<NOUN>-Voc
+Degree#<NumType=Ord>	<ADJ>
+Definite#<NumType=Ord>	<ADJ>
+
+
+PRON
+
+Gender	<ADJ>
+Number	Plur Sing Dual
+Case	<NOUN>-Voc
+PronType	Prs Dem Rel Ind
+Person#<PronType=Prs>	1 2 3
+
+
+DET
+
+Gender	<ADJ>
+Number	<PRON>
+Case	<PRON>
+PronType	<PRON>
+Person	<PRON>
+
+
+VERB
+
+
+Person	1 2 3
+Number	Sing Plur#<Person=1,2>
+Tense	Present Past
+Aspect	Iter Imp Perf
+VerbForm	Fin Inf Part
+Mood	Ind Sub Imp #<!VerbForm=Inf,Part> Pot#<VerbForm=Part>
+Voice	Act Pass
+Reflexive	Yes
+Gender#<VerbForm=Part>	<ADJ>
+Case#<VerbForm=Part>	<ADJ>
+
