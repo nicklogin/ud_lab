@@ -113,6 +113,12 @@ def parse_tag_set(tagset_obj, tagset, filepath=True, splitted=False):
 
 
 class UDFeatsSet(object):
+    '''
+    Arguments:
+    tagset - either a path to .udfeats file or a udfeats-string/list of strings
+    filepath - whether the value passed as 'tagset' argument is a filepath
+    splitted - whether the value passed as 'tagset' is splitted into lines if it is a string
+    '''
     def __init__(self, *args, **kwargs):
         parse_tag_set(self, *args, **kwargs)
     
