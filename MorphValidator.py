@@ -1,4 +1,4 @@
-def warn(x):
+def warn(x, *y):
     print(x)
 
 def parse_cond(cond_list):
@@ -7,7 +7,8 @@ def parse_cond(cond_list):
     else:
         return Condition(cond_list)
 
-def parse_tag_set(tagset_obj, tagset, filepath=True, splitted=False):
+def parse_tag_set(tagset_obj, tagset, filepath=True, splitted=False, warn_func=warn):
+    tagset_obj.__setattr__('warn', warn_func)
     if filepath:
         with open(tagset, 'r', encoding='utf-8') as ts:
             tagset = ts.read()
@@ -129,20 +130,22 @@ class UDFeatsSet(object):
         ## if tis not allowed report an error
         if pos_tag in dir(self):
             tag_attr_dict = self.__getattribute__(pos_tag)
+			## now works only with one value for each morphological tag:
+            tagset = {key: val[0] for key, val in tagset.items()}
             for tag, value in tagset.items():
                 if not tag in tag_attr_dict:
-                    warn(f'feature "{tag}" not allowed for pos "{pos_tag}" for language "{self.lang}"')
+                    self.warn(f'feature "{tag}" not allowed for pos "{pos_tag}" for language "{self.lang}"', 'Morpho')
                     continue
                 if value in tag_attr_dict[tag]:
                     if not tag_attr_dict[tag][value]:
                         continue
                     elif tag_attr_dict[tag][value](tagset):
                         continue
-                    warn(f'value "{value}" not allowed for feature "{tag}" for pos "{pos_tag}" for language "{self.lang}"')
+                    self.warn(f'value "{value}" not allowed for feature "{tag}" for pos "{pos_tag}" for language "{self.lang}"', 'Morpho')
                 else:
-                    warn(f'value "{value}" not allowed for feature "{tag}" for pos "{pos_tag}" for language "{self.lang}"')
+                    self.warn(f'value "{value}" not allowed for feature "{tag}" for pos "{pos_tag}" for language "{self.lang}"', 'Morpho')
         else:
-            warn(f'POS {pos_tag} not allowed for language {self.lang}')
+            self.warn(f'POS {pos_tag} not allowed for language {self.lang}', 'Morpho')
 
 class Condition:
     def __init__(self, cond_list):

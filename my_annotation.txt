@@ -1,0 +1,294 @@
+# newpar id=450									
+# sent_id = 0
+1	Paskui	paskui	ADV	_	Degree=Pos	3	advmod	_	_
+2	drauge	drauge	ADV	_	Degree=Pos	3	advmod	_	_
+3	vakaravo	vakaruoti	VERB	_	Mood=Ind|Number=Plur|Person=3|Reflex=No|Tense=Past	6	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	jai	jis	PRON	_	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	šokti	šokti	VERB	_	Reflex=No|VerbForm=Inf	0	root	_	_
+7	griežė	griežti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	6	acl	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	kas dieną	kasdien	ADV	_	Degree=Pos	10	advmod	_	_
+10	matė	matyti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	7	conj	_	SpaceAfter=no
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar id=451									
+# sent_id = 0
+1	Galų	galų	ADV	_	Degree=Sup	0	root	_	_
+2	gale	gale	ADV	_	Degree=Sup	5	obl	_	_
+3	visame	visas	PRON	_	Case=Loc|Gender=Masc|Number=Sing	4	amod	_	_
+4	pasaulyje	pasaulis	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	juk	juk	VERB	_	VerbForm=Part	1	acl	_	_
+6	nėra	nebūti	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Reflex=No|Tense=Pres	5	parataxis	_	_
+7	gražesnės	gražus	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	stipresnės	stiprus	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	meilesnės	meilus	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	conj	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	išmintingesnės	išmintingas	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	conj	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	doresnės	doras	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=no
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	tėvam	tėvam	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	18	obj	_	_
+18	paklusnesnės	paklusnus	ADJ	_	Case=Gen|Definite=Ind|Degree=Cmp|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=no
+19	...	...	PUNCT	_	_	6	punct	_	_
+
+# newpar id=452									
+# sent_id = 0
+1	Biro	birti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	0	root	_	_
+2	Mykoliukui	Mykoliukas	PROPN	_	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+3	visa	visas	PRON	_	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+4	eilė	eilė	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	be	be	ADV	_	Degree=Pos	2	acl:relcl	_	_
+7	galo	galo	ADV	_	Degree=Pos	6	acl	_	_
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	be	be	ADP	_	_	10	case	_	_
+10	saiko	saikas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	pagyrimo	pagyrimas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+13	priedų	priedas	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	kurie	kuris	PRON	_	Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+16	vis	vis	SCONJ	?	_	21	advmod	_	fixed!
+17	dėlto	dėlto	SCONJ	?	_	16	fixed	_	fixed!
+18	nė	nė	CCONJ	_	_	21	cc	_	_
+19	iš	iš	ADV	_	Degree=Pos	21	advmod	_	_
+20	tolo	tolo	ADV	_	Degree=Pos	21	advmod	_	_
+21	neatvaizdino	neatvaizdinti	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Reflex=No|Tense=Past	13	acl:relcl	_	_
+22	jam	jis	PRON	_	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	21	iobj	_	_
+23	tikrosios	tikras	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	Pukštaičios	Pukštaičia	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	21	obj	_	!
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	viso	visas	PRON	_	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+27	Severjos	Severja	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	!
+28	gerumo	gerumas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
+29	ir	ir	CCONJ	_	_	30	cc	_	_
+30	tinkamumo	tinkamumas	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	28	conj	_	_
+31	.	.	PUNCT	_	_	7	punct	_	_
+
+# newpar id=16									
+# sent_id = 0
+1	LABAI	labas	ADJ	_	Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	2	advmod	_	_
+2	SENAI	senas	ADJ	_	Case=Dat|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	MYKOLIUKAS	Mykoliukas	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
+5	IR	ir	CCONJ	_	_	6	cc	_	_
+6	SEVERIUTĖ	Severiutė	PROPN	_	_	4	conj	_	!
+
+# newpar id=23									
+# sent_id = 0
+1	Tvarkė	tvarkyti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	0	root	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	barės	barės	VERB	_	_	1	conj	_	!
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	bizūnu	bizūnas	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	6	obj	_	_
+6	pliaukšėjo	pliaukšėti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	3	conj	_	_
+7	ir	ir	CCONJ	_	_	9	cc	_	_
+8	nuolat	nuolat	ADV	_	Degree=Pos	9	advmod	_	_
+9	pypkę	pypkė	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	rūkė	rūkyti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	6	conj	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar id=24									
+# sent_id = 0
+1	Kur	kur	ADV	_	Degree=Pos	4	advmod	_	_
+2	tik	tik	ADV	_	Degree=Pos	1	fixed	_	_
+3	jis	jis	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	_
+4	pasisuko	pasisukti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Past	0	root	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	visur	visur	ADV	_	Degree=Pos	7	advmod	_	_
+7	girdėjai	girdėti	VERB	_	Mood=Ind|Number=Sing|Person=2|Reflex=No|Tense=Past	4	conj	_	_
+8	:	:	PUNCT	_	_	4	punct	_	_
+
+# newpar id=26									
+# sent_id = 0
+1	Reikia	reikti	VERB	_	Mood=Ind|Person=3|Reflex=No|Tense=Pres	0	root	_	_
+2	grėbti	grėbti	VERB	_	Reflex=No|VerbForm=Inf	1	xcomp	_	_
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# newpar id=29									
+# sent_id = 0
+1	Mykoliuk	mykoliukas	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	vežimų	vežimas	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_
+4	krautų	krauti	VERB	_	Mood=Cnd|Number=Sing|Person=3|Reflex=No	0	root	_	_
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# newpar id=33									
+# sent_id = 0
+1	O	o	INTJ	_	_	0	root	_	_
+2	Mykoliukas	Mykoliukas	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	jau	jau	ADV	_	Degree=Pos	5	advmod	_	_
+4	visas	visas	PRON	_	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Mykolas	Mykolas	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# newpar id=34									
+# sent_id = 0
+1	Jam	jis	PRON	_	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	arti	arti	VERB	_	Reflex=No|VerbForm=Inf	0	root	_	_
+3	trijų	trys	NUM	card	Case=Gen|Gender=Masc	2	conj	_	_
+4	dešimtų	dešimtas	NUM	ord	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	3	parataxis	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar id=644									
+# sent_id = 0
+1	Ir	ir	CCONJ	_	_	2	cc	_	_
+2	pataikęs	pataikyti	VERB	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	12	advcl	_	_
+3	valandą	valanda	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	kada	kada	ADV	_	Degree=Pos	10	advmod	_	_
+6	Mykoliukas	Mykoliukas	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	lyg	lyg	SCONJ	_	_	10	cc	_	_
+8	kažin	kažin	ADV	_	Degree=Pos	10	advmod	_	_
+9	kur	kur	ADV	_	Degree=Pos	10	advmod	_	_
+10	nusigręžė	nusigręžti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Past	3	acl	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	šnibžtelėjo	šnibžtelti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	0	root	_	_
+13	Severjai	Severja	PROPN	_	Case=Dat|Gender=Fem|Number=Sing	12	iobj	_	!
+14	:	:	PUNCT	_	_	12	punct	_	_
+
+# newpar id=645									
+# sent_id = 0
+1	Ateinantį	ateiti	VERB	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	šventadienį	šventadienis	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	saulei	saulė	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_
+5	tekant	tekėti	VERB	_	Reflex=No|Tense=Pres|VerbForm=PartPad	4	amod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Girstupio	Girstupis	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+8	šlaite	šlaitas	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+9	ar	ar	CCONJ	_	_	11	cc	_	_
+10	man	aš	PRON	_	Case=Dat|Number=Sing	11	iobj	_	_
+11	bus	būti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Fut	0	root	_	_
+12	žūti	žūti	VERB	_	Reflex=No|VerbForm=Inf	11	xcomp	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	ar	ar	CCONJ	_	_	15	cc	_	_
+15	būti	būti	VERB	_	Reflex=No|VerbForm=Inf	11	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# newpar id=646									
+# sent_id = 0
+1	Kas	kas	PRON	_	Case=Nom	2	nsubj	_	_
+2	gaili	gailėti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Pres	6	csubj	_	_
+3	manęs	aš	PRON	_	Case=Gen|Number=Sing	2	iobj	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	tegu	tegu	VERB	_	VerbForm=Part	6	parataxis	_	_
+6	ateina	ateiti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Pres	0	root	_	_
+7	vaduoti	vaduoti	VERB	_	Reflex=No|VerbForm=Inf	6	xcomp	_	_
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# newpar id=647									
+# sent_id = 0
+1	Kaip	kaip	ADV	_	Degree=Pos	2	advmod	_	_
+2	sakai	sakyti	VERB	_	Mood=Ind|Number=Sing|Person=2|Reflex=No|Tense=Pres	0	root	_	_
+3	?	?	PUNCT	_	_	4	punct	_	_
+4	išplėtė	išplėsti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	2	parataxis	_	_
+5	akis	akis	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	Severja	Severja	PROPN	_	_	4	nsubj	_	!
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar id=648									
+# sent_id = 0
+1	Tai	tas	PRON	_	Definite=Ind|Gender=Neut	2	nsubj	_	_
+2	slapta	slapta	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	kurią	kuris	PRON	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	tegali	tegalėti	VERB	_	Mood=Ind|Number=Sing|Person=2|Reflex=No|Tense=Pres	2	parataxis	_	_
+6	patirti	patirti	VERB	_	Reflex=No|VerbForm=Inf	5	xcomp	_	_
+7	tenai	tenai	ADV	_	Degree=Pos	5	advmod	_	_
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	pabaigė	pabaigti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	2	parataxis	_	_
+10	Daisia	daisia	PART	_	_	9	nsubj	_	!
+11	ir	ir	CCONJ	_	_	12	cc	_	_
+12	atsistojo	atsistoti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Past	9	conj	_	_
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	nes	nes	SCONJ	_	_	16	cc	_	_
+15	jau	jau	ADV	_	Degree=Pos	16	advmod	_	_
+16	artinos	arti	VERB	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Reflex=No|VerbForm=Part|Voice=Necess	9	conj	_	_
+17	į	į	ADP	_	_	18	case	_	_
+18	juos	jis	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur	16	iobj	_	_
+19	bent	bent	ADV	_	Degree=Pos	20	advmod	_	_
+20	dvi	du	NUM	card	Case=Nom|Gender=Fem	21	nummod	_	_
+21	voros	vora	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+22	žmonių	žmogus	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	.	.	PUNCT	_	_	9	punct	_	_
+
+# newpar id=649									
+# sent_id = 0
+1	Mykoliuk	mykoliukas	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	6	vocative	_	_
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	kas	kas	PRON	_	Case=Nom	6	nsubj	_	_
+4	tau	tu	PRON	_	Case=Dat|Number=Sing	6	iobj	_	_
+5	šiandie	šiandie	ADV	_	Degree=Pos	6	advmod	_	_
+6	pasidarė	pasidaryti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Past	0	root	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# newpar id=650									
+# sent_id = 0
+1	Ko	kas	ADV	_	Degree=Pos	3	advmod	_	_
+2	tu	tu	PRON	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	negrieži	negriežti	VERB	_	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Reflex=No|Tense=Pres	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# newpar id=651									
+# sent_id = 0
+1	Mes	aš	PRON	_	Case=Nom|Number=Plur	3	nsubj	_	_
+2	jau	jau	ADV	_	Degree=Pos	3	advmod	_	_
+3	manėm	manėm	VERB	_	_	0	root	_	!
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	jog	jog	SCONJ	_	_	8	mark	_	_
+6	tu	tu	PRON	_	Case=Nom|Number=Sing	8	nsubj	_	_
+7	kur	kur	ADV	_	Degree=Pos	8	advmod	_	_
+8	išnykai	išnykti	VERB	_	Mood=Ind|Number=Sing|Person=2|Reflex=No|Tense=Past	3	ccomp	_	_
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	ėmė	imti	VERB	_	Mood=Ind|Number=Plur|Person=3|Reflex=No|Tense=Past	3	parataxis	_	_
+11	prikaišioti	prikaišioti	VERB	_	Reflex=No|VerbForm=Inf	10	xcomp	_	_
+12	priėję	prieiti	VERB	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	10	nsubj	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# newpar id=652									
+# sent_id = 0
+1	Mykolas	Mykolas	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	tik	tik	ADV	_	Degree=Pos	3	advmod	_	_
+3	dabar	dabar	ADV	_	Degree=Pos	4	advmod	_	_
+4	susigriebė	susigriebti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=Yes|Tense=Past	0	root	_	_
+5	senai	senai	ADV	_	Degree=Pos	11	advmod	_	_
+6	jau	jau	ADV	_	Degree=Pos	5	fixed	_	_
+7	savo	savo	PRON	_	_	8	amod	_	_
+8	griežtuvėlį	griežtuvėlis	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+9	esąs	būti	AUX	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Reflex=No|Tense=Pres|VerbForm=Part|Voice=Act	11	cop	_	_
+10	panuovalyje	panuovalis	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+11	padėjęs	padėti	VERB	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	_
+12	ir	ir	CCONJ	_	_	15	cc	_	_
+13	visai	visai	ADV	_	Degree=Pos	15	advmod	_	_
+14	jį	jis	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	_
+15	užmiršęs	užmiršti	VERB	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Reflex=No|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# newpar id=653									
+# sent_id = 0
+1	Tad	tad	SCONJ	_	_	2	mark	_	_
+2	griebė	griebti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	0	root	_	_
+3	jį	jis	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	_
+4	nusigandęs	nusigąsti	VERB	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Part|Voice=Act	2	advcl	_	_
+5	ir	ir	CCONJ	_	_	6	cc	_	_
+6	pagavo	pagauti	VERB	_	Mood=Ind|Number=Sing|Person=3|Reflex=No|Tense=Past	2	conj	_	_
+7	linksmai	linksmai	ADV	_	Degree=Pos	8	advmod	_	_
+8	čyruoti	čyruoti	VERB	_	Reflex=No|VerbForm=Inf	6	xcomp	_	_
+9	:	:	PUNCT	_	_	15	punct	_	_
+10	„	„	PUNCT	_	_	15	punct	_	_
+11	Kai	kai	SCONJ	_	_	12	mark	_	_
+12	noriu	norėti	VERB	_	Mood=Ind|Number=Sing|Person=1|Reflex=No|Tense=Pres	15	advcl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	rimtai	rimtai	ADV	_	Degree=Pos	15	advmod	_	_
+15	dirbu	dirbti	VERB	_	Mood=Ind|Number=Sing|Person=1|Reflex=No|Tense=Pres	6	parataxis	_	_
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	kai	kai	SCONJ	_	_	18	mark	_	_
+18	nenoriu	nenorėti	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Reflex=No|Tense=Pres	20	advcl	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	tinginiauju	tinginiauti	VERB	_	Mood=Ind|Number=Sing|Person=1|Reflex=No|Tense=Pres	15	conj	_	_
+21	.	.	PUNCT	_	_	15	punct	_	_
+22	“	“	PUNCT	_	_	15	punct	_	_

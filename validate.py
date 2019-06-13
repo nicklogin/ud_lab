@@ -1657,6 +1657,7 @@ if __name__=="__main__":
 
     io_group=opt_parser.add_argument_group("Input / output options")
     io_group.add_argument('--quiet', dest="quiet", action="store_true", default=False, help='Do not print any error messages. Exit with 0 on pass, non-zero on fail.')
+    io_group.add_argument('--max-err', action="store", type=int, default=20, help='How many errors to output before exiting? 0 for all. Default: %(default)d.')
     io_group.add_argument('-i', '--input', nargs='*', help='Input file name(s), or "-" or nothing for standard input.')
     #I don't think output makes much sense now that we allow multiple inputs, so it will default to /dev/stdout
     io_group.add_argument('-o','--output', help='Output file name, or "-" or nothing for standard output.')
